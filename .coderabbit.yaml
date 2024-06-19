@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://coderabbit.ai/integrations/coderabbit-overrides.v2.json
 language: "en" # English
-early_access: false
+early_access: true
 reviews:
   high_level_summary: false # Disable the high level summary because this feature modifies the original PR description. Ideally this feature would add a new comment to the PR instead of modifying the original PR description.
   poem: false # Disable the poem feature because it adds noise and doesn't improve the review process.
